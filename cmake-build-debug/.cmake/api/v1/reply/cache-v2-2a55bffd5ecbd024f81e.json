@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/wangqianlong/Desktop/CLion/C\u8bed\u8a00/cmake-build-debug"
+			"value" : "/Users/wangqianlong/Desktop/CLion/c/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -419,7 +419,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/wangqianlong/Desktop/CLion/C\u8bed\u8a00"
+			"value" : "/Users/wangqianlong/Desktop/CLion/c"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -991,7 +991,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wangqianlong/Desktop/CLion/C\u8bed\u8a00/cmake-build-debug"
+			"value" : "/Users/wangqianlong/Desktop/CLion/c/cmake-build-debug"
 		},
 		{
 			"name" : "C_IS_TOP_LEVEL",
@@ -1015,7 +1015,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/wangqianlong/Desktop/CLion/C\u8bed\u8a00"
+			"value" : "/Users/wangqianlong/Desktop/CLion/c"
 		}
 	],
 	"kind" : "cache",
