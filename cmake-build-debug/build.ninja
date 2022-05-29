@@ -257,6 +257,68 @@ build 06: C_EXECUTABLE_LINKER__06_Debug CMakeFiles/06.dir/06-5.27.c.o
   TARGET_FILE = 06
   TARGET_PDB = 06.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 07
+
+
+#############################################
+# Order-only phony target for 07
+
+build cmake_object_order_depends_target_07: phony || CMakeFiles/07.dir
+
+build CMakeFiles/07.dir/07-5.29.c.o: C_COMPILER__07_Debug /Users/wangqianlong/Desktop/CLion/c/07-5.29.c || cmake_object_order_depends_target_07
+  DEP_FILE = CMakeFiles/07.dir/07-5.29.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/07.dir
+  OBJECT_FILE_DIR = CMakeFiles/07.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07
+
+
+#############################################
+# Link the executable 07
+
+build 07: C_EXECUTABLE_LINKER__07_Debug CMakeFiles/07.dir/07-5.29.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/07.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 07
+  TARGET_PDB = 07.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 08
+
+
+#############################################
+# Order-only phony target for 08
+
+build cmake_object_order_depends_target_08: phony || CMakeFiles/08.dir
+
+build CMakeFiles/08.dir/08-5.29.c.o: C_COMPILER__08_Debug /Users/wangqianlong/Desktop/CLion/c/08-5.29.c || cmake_object_order_depends_target_08
+  DEP_FILE = CMakeFiles/08.dir/08-5.29.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/08.dir
+  OBJECT_FILE_DIR = CMakeFiles/08.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 08
+
+
+#############################################
+# Link the executable 08
+
+build 08: C_EXECUTABLE_LINKER__08_Debug CMakeFiles/08.dir/08-5.29.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/08.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 08
+  TARGET_PDB = 08.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -291,7 +353,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/wangqianlong/Desktop/CLion/c/cmake-build-debug
 
-build all: phony C 01 02 03 04 05 06
+build all: phony C 01 02 03 04 05 06 07 08
 
 # =============================================================================
 # Built-in targets
