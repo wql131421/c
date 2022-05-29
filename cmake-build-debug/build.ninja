@@ -319,6 +319,99 @@ build 08: C_EXECUTABLE_LINKER__08_Debug CMakeFiles/08.dir/08-5.29.c.o
   TARGET_FILE = 08
   TARGET_PDB = 08.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 09
+
+
+#############################################
+# Order-only phony target for 09
+
+build cmake_object_order_depends_target_09: phony || CMakeFiles/09.dir
+
+build CMakeFiles/09.dir/09-5.29.c.o: C_COMPILER__09_Debug /Users/wangqianlong/Desktop/CLion/c/09-5.29.c || cmake_object_order_depends_target_09
+  DEP_FILE = CMakeFiles/09.dir/09-5.29.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/09.dir
+  OBJECT_FILE_DIR = CMakeFiles/09.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 09
+
+
+#############################################
+# Link the executable 09
+
+build 09: C_EXECUTABLE_LINKER__09_Debug CMakeFiles/09.dir/09-5.29.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/09.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 09
+  TARGET_PDB = 09.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10
+
+
+#############################################
+# Order-only phony target for 10
+
+build cmake_object_order_depends_target_10: phony || CMakeFiles/10.dir
+
+build CMakeFiles/10.dir/10-5.29.c.o: C_COMPILER__10_Debug /Users/wangqianlong/Desktop/CLion/c/10-5.29.c || cmake_object_order_depends_target_10
+  DEP_FILE = CMakeFiles/10.dir/10-5.29.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/10.dir
+  OBJECT_FILE_DIR = CMakeFiles/10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10
+
+
+#############################################
+# Link the executable 10
+
+build 10: C_EXECUTABLE_LINKER__10_Debug CMakeFiles/10.dir/10-5.29.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10
+  TARGET_PDB = 10.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11
+
+
+#############################################
+# Order-only phony target for 11
+
+build cmake_object_order_depends_target_11: phony || CMakeFiles/11.dir
+
+build CMakeFiles/11.dir/11-5.29.c.o: C_COMPILER__11_Debug /Users/wangqianlong/Desktop/CLion/c/11-5.29.c || cmake_object_order_depends_target_11
+  DEP_FILE = CMakeFiles/11.dir/11-5.29.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/11.dir
+  OBJECT_FILE_DIR = CMakeFiles/11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11
+
+
+#############################################
+# Link the executable 11
+
+build 11: C_EXECUTABLE_LINKER__11_Debug CMakeFiles/11.dir/11-5.29.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 11
+  TARGET_PDB = 11.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -353,7 +446,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/wangqianlong/Desktop/CLion/c/cmake-build-debug
 
-build all: phony C 01 02 03 04 05 06 07 08
+build all: phony C 01 02 03 04 05 06 07 08 09 10 11
 
 # =============================================================================
 # Built-in targets
